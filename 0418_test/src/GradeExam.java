@@ -7,3 +7,12 @@ public class GradeExam {
 	}
 
 }
+
+class Grade{
+	int math;
+	int science;
+	int english;
+	public int average() {
+		return (math+science+english)/3;
+	}
+}
